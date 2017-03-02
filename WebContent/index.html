@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset = 'utf-8'>
+<title>Form</title>
+<link rel="stylesheet"  href="registration.css">
+<script type = 'text/javascript' src ="javascript.js"></script>
+</head>
+  <h1><u>STUDENT REGISTRATION FORM</h1></u>
+<body>
+
+    <form id='form' method = 'post'>
+   
+         First Name: <input type="text" id = "first_name"/>
+         Last Name: <input type="text" id = "last_name"/>
+         Phone Number: <input type="text" id = "phone_no"/>
+         Password: <br /><input type="password"  id = "password"/><br />
+         Confirm Password:<br /> <input type='password' id = "conform_password"/><br />
+         Email :<br /> <input type="email" id = "Email_Id"/>
+         DOB : <br /><input type="date" id = "Date_Of_Birth"/><br />
+        Gender:</p>
+        <input type = "radio" id = "gender1" name = "gender" value = "Male">Male
+        <input type = "radio" id = "gender1" name = "gender" value = "Female">Female <br /><br />
+        Address<input type = "text"  id = "address" ><br />            
+       <div align="center"> <input id ="Submit" type = "button" value = 'submit' onclick="display()" />
+        <input id ="cancel" type = "reset" value = 'cancel' >
+        </div>
+       
+    </form>
+   
+</body>
+</html>

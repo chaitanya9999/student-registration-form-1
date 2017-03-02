@@ -1,0 +1,65 @@
+body{
+    background-color: #e8f3f8;
+}
+h1{
+  color: steel blue; font-family: 'Rouge Script', cursive; font-size: 30px; font-weight: bold; line-height: 32px; text-align: center; text-shadow: 1px 1px 1px #082b34; 
+}
+form{
+    margin:30px auto;
+    width:320px;
+ margin:20px;
+}
+input{
+    padding:1px;
+}
+input[
+    type="text"]{display:block;
+    width:50%;
+    padding:1px;
+    border:2px steel blue;
+    }
+input[
+    type="email"]{display:block;
+    padding:1px;
+    width:50%;
+    border:2px steel blue;
+   }
+input[
+    type="date"]{display:block;
+    padding:1px;
+    width:50%;
+    border:2px steel blue;
+} 
+input[
+    type="password"]{display:block;
+    padding:1px;
+    width:50%;
+    border:2px steel blue;
+} 
+input[type="radio"]{
+    margin:0,8px,25px,18px;
+}
+input[type="radio"]{
+    margin-left:0;
+}
+input[type="submit"]{
+    width:100px;
+    height:30px;
+    border:none;
+    background:steel blue;
+    
+}
+input[type="cancel"]{
+    width:100px;
+    height:30px;
+    border:none;
+    background:steel blue;
+}
+input:focus{
+    background:solid blue;
+}input[type="radio"]:checked + label{
+    font-weight:bold;
+    font-size:18px;
+}
+}
+
